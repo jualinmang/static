@@ -61,16 +61,17 @@ h2 {
     height: 100%;
 }
 
+
 .menu-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
+    flex-direction: column; /* Ubah tata letak menjadi kolom */
+    align-items: center; /* Atur agar konten berada di tengah */
+    justify-content: center;
 }
 
 .price {
-    font-size: 16px;
-    color: #333;
+    margin-bottom: 10px; /* Beri jarak antara harga dan kuantitas */
+    font-size: 16px; /* Sesuaikan ukuran font jika diperlukan */
 }
 
 .quantity-controls {
@@ -78,6 +79,7 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 
 .qty-btn {
     background-color: #ddd;
