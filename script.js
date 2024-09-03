@@ -1,5 +1,8 @@
 import { postJSON } from 'https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.4/api.js';  // Sesuaikan path sesuai dengan lokasi file Anda
+import {onClick} from 'https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.4/element.js';
 
+
+onClick('buttonsimpaninfouser',saveUserInfo);
 
 document.addEventListener('DOMContentLoaded', function() {
     checkCookies();
