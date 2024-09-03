@@ -180,7 +180,7 @@ document.getElementById('whatsappLink').addEventListener('click', function(event
         paymentMethod: paymentMethod // Tambahkan paymentMethod ke postData
     };
 
-    postJSON('https://asia-southeast2-awangga.cloudfunctions.net/jualin/data/order/'+getLastPathSegment(), 'Authorization', 'Bearer your_token_here', postData, function(response) {
+    postJSON('https://asia-southeast2-awangga.cloudfunctions.net/jualin/data/order/'+getLastPathSegment(), 'login', '', postData, function(response) {
         console.log('API Response:', response);
     });
 });
