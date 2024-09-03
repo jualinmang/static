@@ -85,6 +85,7 @@ function renderMenu(menuItems) {
     });
 }
 
+
 //function changeQuantity(id, price, delta) {
 window.changeQuantity = function(id, price, delta) {
     var qtyInput = document.getElementById(id);
